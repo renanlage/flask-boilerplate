@@ -1,0 +1,7 @@
+-r requirements.txt
+
+mock
+pytest
+Flask-Testing
+ipdb
+ipython
