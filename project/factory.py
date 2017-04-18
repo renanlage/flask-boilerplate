@@ -1,5 +1,5 @@
 from flask.app import Flask
-from unclebob import config
+from project import config
 
 
 def create_app(app_name=None):
@@ -12,6 +12,6 @@ def create_app(app_name=None):
 
 
 def configure_blueprints(app):
-    from unclebob.api import api
+    from project.root import root_bp
 
-    app.register_blueprint(api)
+    app.register_blueprint(root_bp)

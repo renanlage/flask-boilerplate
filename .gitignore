@@ -4,12 +4,8 @@
 __pycache__
 .cache
 *egg-info*
-run_process.sh
 .coverage
 htmlcov/*
 *.db
 *.ipynb
-bower_components
-/Docker/compose/*.env
-/Docker/compose/*dev.yml
 *.log

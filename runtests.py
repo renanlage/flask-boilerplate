@@ -6,7 +6,7 @@ import sys
 import pytest
 
 
-os.environ['test'] = '1'
+os.environ['TEST'] = '1'
 args = ['-rsxX', '--tb=native'] + sys.argv[1:]
 
-sys.exit(pytest.main(args + ['unclebob/tests/']))
+sys.exit(pytest.main(args + ['project/tests/']))
